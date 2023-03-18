@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>mission5-1「電卓」</title>
+<style>
+    .font {
+        font-size:30px;
+    }
+</style>
+</head>
+<span style="font-size:50px;color:rgb(29, 7, 226);">電卓（「＋」,「－」,「×」,「÷」のみ）</span>
+<hr>
+<body bgcolor="#E4E2FF">
+<div class="font"><span style="color:purple">「開始ボタン」</span>を押して計算を開始する。</div><br>
+<button onclick="calculator()" style="width:150px;height:70px;font-size:30px;background-color:purple;color:yellow">計算開始</button><br><br>
+<div id="process" style="font-size:30px;color:blue;">ここに計算式が表示されます。</div>
+<div id="result" style="font-size:30px;color:rgb(102, 162, 13);">ここに最終計算結果が表示されます。</div>
+<script src="calculator.js"></script><br>
+<button onclick="reset()" style="width:200px;height:70px;font-size:30px;background-color:yellow;color:purple;">初期化する</button><br>
+<span style="font-size:20px;color:red">＊もし、計算を強制終了させたくなったら、「行う演算または「＝」コマンドを入力してください。」のところで「=(半角）を入力してください。</span>
+<script src ="reset.js"></script><br>
+<span style="font-size:30px">参考サイト</span><br>
+<ul>
+    <li style="font-size:30px;"><a href="https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12268833062" target="_blank">文字列を数値に変換する方法</a></li>
+</ul>
+</body>
+</html>
